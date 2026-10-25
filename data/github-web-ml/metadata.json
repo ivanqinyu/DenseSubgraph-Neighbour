@@ -1,0 +1,20 @@
+{
+  "dataset": "github-web-ml",
+  "format": "nfds-compact-v1",
+  "n": 37700,
+  "m": 289003,
+  "groups": {
+    "0": 27961,
+    "1": 9739
+  },
+  "original_label_map": {
+    "0": "0",
+    "1": "1"
+  },
+  "source": "SNAP GitHub Social (https://snap.stanford.edu/data/github-social.html)",
+  "notes": [],
+  "sha256": {
+    "edges.npy": "1aa20b166b331ac2309f4303a64afc8ddce468ccd37760ae97e0443e5a5b8731",
+    "labels.npy": "d9b52917e6a2a61db283dec8b63fd240d050359f54ffb25cccd8cfce5228aa4d"
+  }
+}

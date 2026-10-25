@@ -1,0 +1,59 @@
+{
+  "dataset": "twitch-language",
+  "format": "nfds-compact-v1",
+  "n": 166685,
+  "m": 6755546,
+  "groups": {
+    "0": 576,
+    "1": 503,
+    "2": 9428,
+    "3": 124411,
+    "4": 5699,
+    "5": 652,
+    "6": 6799,
+    "7": 427,
+    "8": 1230,
+    "9": 1327,
+    "10": 1215,
+    "11": 701,
+    "12": 330,
+    "13": 944,
+    "14": 2536,
+    "15": 4821,
+    "16": 854,
+    "17": 632,
+    "18": 772,
+    "19": 2828
+  },
+  "original_label_map": {
+    "0": "CS",
+    "1": "DA",
+    "2": "DE",
+    "3": "EN",
+    "4": "ES",
+    "5": "FI",
+    "6": "FR",
+    "7": "HU",
+    "8": "IT",
+    "9": "JA",
+    "10": "KO",
+    "11": "NL",
+    "12": "NO",
+    "13": "PL",
+    "14": "PT",
+    "15": "RU",
+    "16": "SV",
+    "17": "TH",
+    "18": "TR",
+    "19": "ZH"
+  },
+  "source": "SNAP Twitch Gamers (https://snap.stanford.edu/data/twitch_gamers.html)",
+  "notes": [
+    "Group IDs are compact after removing the OTHER language (original ID 13); original_label_map gives each language code.",
+    "Removed OTHER-language nodes and incident edges to match the paper preprocessing policy."
+  ],
+  "sha256": {
+    "edges.npy": "cf8b068326eede5ff365f3179202b7212203ea7a783d7b48375737dfdfda0fbd",
+    "labels.npy": "f8b02a8ef64bb7c24b2a6b9b9c8504b129b580c207af924a6dbe763ca6a7e7ec"
+  }
+}

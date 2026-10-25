@@ -1,0 +1,26 @@
+{
+  "dataset": "proteins-species",
+  "format": "nfds-compact-v1",
+  "n": 132534,
+  "m": 39561252,
+  "groups": {
+    "0": 21236,
+    "1": 25449,
+    "2": 6568,
+    "3": 4125,
+    "4": 18108,
+    "5": 13015,
+    "6": 24679,
+    "7": 19354
+  },
+  "original_label_map": null,
+  "source": "OGB ogbn-proteins, node species (https://ogb.stanford.edu/docs/nodeprop/#ogbn-proteins)",
+  "notes": [
+    "Original species identifiers are not recorded for this snapshot; prepare_data.py records them when converting from OGB.",
+    "edges.npy is not included because of its size; download and convert it as described in README.md. Its checksum is listed below."
+  ],
+  "sha256": {
+    "edges.npy": "163f0547683ffdb2f82e0f505c313d49af2b6029bacc8ba13c7986bde3452e6b",
+    "labels.npy": "a21f4764780e95061fed258c9b3500e9d3168b6d141d5b776cd884987ed1014f"
+  }
+}

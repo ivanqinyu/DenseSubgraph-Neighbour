@@ -1,0 +1,20 @@
+{
+  "dataset": "pokec-location",
+  "format": "nfds-compact-v1",
+  "n": 67796,
+  "m": 617958,
+  "groups": {
+    "0": 43962,
+    "1": 23834
+  },
+  "original_label_map": {
+    "0": "0",
+    "1": "1"
+  },
+  "source": "Pokec instance of FairGNN (Dai and Wang, 2021), derived from SNAP Pokec (https://snap.stanford.edu/data/soc-Pokec.html)",
+  "notes": [],
+  "sha256": {
+    "edges.npy": "268b4ac611f9bfe5af84d56eb7a3dee473b3286203bbf3d9c1ae0d0bda24c53c",
+    "labels.npy": "8dbce1c078171115ae7daab160011401f89c31a4e559dbc9c1459a2a60d53a48"
+  }
+}

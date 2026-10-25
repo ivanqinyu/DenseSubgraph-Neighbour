@@ -1,0 +1,20 @@
+{
+  "dataset": "deezer-europe",
+  "format": "nfds-compact-v1",
+  "n": 28281,
+  "m": 92752,
+  "groups": {
+    "0": 15743,
+    "1": 12538
+  },
+  "original_label_map": {
+    "0": "0",
+    "1": "1"
+  },
+  "source": "SNAP Deezer Europe (https://snap.stanford.edu/data/feather-deezer-social.html)",
+  "notes": [],
+  "sha256": {
+    "edges.npy": "7f4c5848edbebb84aee8327b1f778feb16bc477f6d54df53bf1e262d28c33389",
+    "labels.npy": "ef2c2eb6a24f6ebe688c5f6ace4aef7d610fac78f018f2dc73d3d81aa6c621a9"
+  }
+}

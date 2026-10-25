@@ -1,0 +1,20 @@
+{
+  "dataset": "high-school-2013-gender",
+  "format": "nfds-compact-v1",
+  "n": 320,
+  "m": 5583,
+  "groups": {
+    "0": 145,
+    "1": 175
+  },
+  "original_label_map": {
+    "0": "F",
+    "1": "M"
+  },
+  "source": "SocioPatterns high-school contacts 2013 (https://sociopatterns.org/datasets/high-school-contact-and-friendship-networks/)",
+  "notes": [],
+  "sha256": {
+    "edges.npy": "11560757369c3a0803bdeb4d555c48c6066108830653a6f2ca45b5a0fd9a962b",
+    "labels.npy": "61d1531460bc6b93a839c0534ac9d897572812e3275ea891d8fa436dfc3da392"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "dataset": "pokec-gender",
+  "format": "nfds-compact-v1",
+  "n": 1632640,
+  "m": 22301602,
+  "groups": {
+    "0": 828304,
+    "1": 804336
+  },
+  "original_label_map": {
+    "0": "0",
+    "1": "1"
+  },
+  "source": "SNAP Pokec (https://snap.stanford.edu/data/soc-Pokec.html)",
+  "notes": [
+    "edges.npy is not included because of its size; download and convert it as described in README.md. Its checksum is listed below."
+  ],
+  "sha256": {
+    "edges.npy": "4d373c6ec54c63795cdafdc56159b2cfd59a32f587f216933192ec41d6fa58a7",
+    "labels.npy": "69e3529625d6730f60f1f3d6f1f5d2b23590afc572c710d6fb9e9d1e756ee3db"
+  }
+}

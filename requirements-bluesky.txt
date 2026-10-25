@@ -1,0 +1,4 @@
+-r requirements.txt
+# Optional accelerators for streaming the full post archive.
+orjson>=3.9
+isal>=1.6

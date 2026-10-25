@@ -1,0 +1,22 @@
+cmake_minimum_required(VERSION 3.16)
+project(dsp_neighbour LANGUAGES CXX)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+if(NOT CMAKE_BUILD_TYPE)
+  set(CMAKE_BUILD_TYPE Release CACHE STRING "Build type" FORCE)
+endif()
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin")
+
+add_library(dsp_common STATIC src/common/graph_io.cpp)
+target_include_directories(dsp_common PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/src")
+
+foreach(method qad co dtc peeling iterative_peeling fista internal demographics opt goldberg)
+  set(sources src/${method}/algorithm.cpp src/${method}/main.cpp)
+  if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/src/${method}/graph_io.cpp")
+    list(APPEND sources src/${method}/graph_io.cpp)
+  endif()
+  add_executable(${method} ${sources})
+  target_link_libraries(${method} PRIVATE dsp_common)
+endforeach()
