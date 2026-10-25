@@ -1,4 +1,4 @@
-# Densest subgraphs with diverse external neighborhoods
+# Densest subgraphs with diverse neighborhoods
 
 Code for the paper. Given a graph whose vertices belong to groups, find a core `S` of
 maximum density `|E(S)| / |S|` such that, for every group `c`, at least `d_c`
