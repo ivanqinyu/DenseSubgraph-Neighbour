@@ -1,0 +1,20 @@
+{
+  "dataset": "genius-status",
+  "format": "nfds-compact-v1",
+  "n": 421961,
+  "m": 922868,
+  "groups": {
+    "0": 337591,
+    "1": 84370
+  },
+  "original_label_map": {
+    "0": "0",
+    "1": "1"
+  },
+  "source": "Non-Homophily Large-Scale datasets, genius.mat (https://github.com/CUAI/Non-Homophily-Large-Scale)",
+  "notes": [],
+  "sha256": {
+    "edges.npy": "203a5d9fb2ac0850ab1e39b7631ae98aa8c6f44622faa5add6de393d6b160745",
+    "labels.npy": "0eb09ef47b90e9cde56c6472084f0cb6eb3d67cc249cde878c30c2dd866343ee"
+  }
+}
