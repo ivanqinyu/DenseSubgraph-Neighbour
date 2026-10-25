@@ -30,7 +30,7 @@ core's vertex IDs.
 |---|---|---|
 | `QAD` | QAD | `--seed` |
 | `CO` | CO | `--seed`, `--mu` (256), `--learning-rate` (0.02), `--steps` (1000) |
-| `DtC` | DtC | `--stop-factor` (6), `--time-limit` (30 s per target) |
+| `DtC` | DtC | `--stop-factor` (6), `--time-limit` (3600 s per target) |
 | `MinimumPeeling`, `Greedy++`, `FISTA` | P, G++, FISTA | `--rounds` (5), `--iterations` (50) |
 | `InternalUpper`, `InternalLower`, `Demographics` | internal-diversity baselines | `--beta` (0.6), `--tau` (0.2) |
 | `OPT`, `Goldberg` | exact references | `--time-limit` for OPT (at most 1,024 vertices) |
