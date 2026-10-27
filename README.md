@@ -48,8 +48,8 @@ Each experiment writes to `outputs/<experiment>/`.
 
 | Paper | Commands | Notes |
 |---|---|---|
-| Fig. 2 | `python experiments/synthetic/generate.py`<br>`python experiments/synthetic/run.py --workers 8`<br>`python experiments/synthetic/plot_feasibility.py`<br>`python experiments/synthetic/plot_density_time.py` | Generates the 350 benchmark graphs. DtC and OPT get 3,600 s per target; about an hour with 8 workers. |
-| Fig. 3 | `python experiments/dtc_guarantee/generate.py`<br>`python experiments/dtc_guarantee/run.py --workers 4`<br>`python experiments/dtc_guarantee/plot.py` | Approximation guarantee of DtC; see `experiments/dtc_guarantee/README.md`. |
+| Fig. 2 | `python experiments/synthetic/generate.py`<br>`python experiments/synthetic/run.py --workers 1`<br>`python experiments/synthetic/plot_feasibility.py`<br>`python experiments/synthetic/plot_density_time.py` | Generates the 350 benchmark graphs. |
+| Fig. 3 | `python experiments/dtc_guarantee/generate.py`<br>`python experiments/dtc_guarantee/run.py --workers 1`<br>`python experiments/dtc_guarantee/plot.py` | Approximation guarantee of DtC; see `experiments/dtc_guarantee/README.md`. |
 | Fig. 4 | `python experiments/lastfm/run.py`<br>`python experiments/lastfm/plot.py` | LastFM case study; under a minute. |
 | Tables 2, 3 | `python experiments/real/run.py`<br>`python experiments/real/tables.py` | Uses every real dataset with edges in `data/` or `inputs/` (see `data/README.md`); serial, about a day for all datasets, mostly CO on the largest graphs. |
 
